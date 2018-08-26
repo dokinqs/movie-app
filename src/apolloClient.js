@@ -16,7 +16,7 @@ const client = new ApolloClient({
       if (networkError) console.log(`[Network error]: ${networkError}`);
     }),
     new HttpLink({
-      uri: 'https://movieql-osezlvyqsg.now.sh',
+      uri: 'https://movie-app-backend-dasacvbblg.now.sh/',
     //   credentials: 'same-origin'
     })
   ]),
