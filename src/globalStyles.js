@@ -2,11 +2,11 @@ import { injectGlobal } from "styled-components";
 import reset from "styled-reset";
 
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
   ${reset};
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #999;
+    background-color: #d8cdcd;
   }
   a {
       color: inherit;
