@@ -24,7 +24,7 @@ const Title = styled.span`
   bottom: 25px;
   left: 0;
   right: 0;
-   margin: auto;
+  margin: auto;
 `;
 
 const Movie = ({ id, title, rating, poster }) => (

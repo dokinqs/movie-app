@@ -5,11 +5,11 @@ injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto');
   ${reset};
   body {
-    font-family: 'Maven Pro', sans-serif;
-    background-color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    background-color: #999;
   }
   a {
-      color:inherit;
+      color: inherit;
   }
   main {
     width: 80%;
