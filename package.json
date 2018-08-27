@@ -25,7 +25,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build"
   },
-  "homepage" : "http://dokinqs.github.io/movie-app"
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "publicUrl" : "http://dokinqs.github.io/movie-app"
 }
