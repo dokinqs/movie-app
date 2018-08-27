@@ -4,17 +4,16 @@ import { ApolloProvider } from 'react-apollo';
 import client from './apolloClient';
 import Home from './Home';
 import Detail from './Detail';
-import './App.css';
 
 class App extends Component {
   render() {
     return (
       <ApolloProvider client={client}>
         <Router>
-          <React.Fragment>
+          <main>
             <Route exact={true} path={"/"} component={Home} />
             <Route path={"/details/:movieId"} component={Detail} />
-          </React.Fragment>
+          </main>
         </Router>
       </ApolloProvider>
     );

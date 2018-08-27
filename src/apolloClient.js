@@ -16,8 +16,7 @@ const client = new ApolloClient({
       if (networkError) console.log(`[Network error]: ${networkError}`);
     }),
     new HttpLink({
-      uri: 'https://movie-app-backend-dasacvbblg.now.sh/',
-    //   credentials: 'same-origin'
+      uri: 'https://movie-app-backend-dasacvbblg.now.sh/'
     })
   ]),
   cache: new InMemoryCache()

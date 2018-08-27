@@ -7,8 +7,7 @@ export const HOME_PAGE = gql`
             title
             genres
             rating
+            medium_cover_image
         }
     }
 `;
-
-// takes a while for the query results to load in the Apollo extension the first time, cuz on a free server
