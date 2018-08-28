@@ -32,5 +32,5 @@
   "devDependencies": {
     "gh-pages": "^1.2.0"
   },
-  "publicUrl" : "http://dokinqs.github.io/movie-app"
+  "publicUrl": "http://dokinqs.github.io/movie-app"
 }
