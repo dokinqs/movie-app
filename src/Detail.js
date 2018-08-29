@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 2fr));
   margin-bottom: 50px;
   text-align: center;
 `;
@@ -37,7 +37,7 @@ const Paragraph = styled.div`
 
 const MovieContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 0.7fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
   flex-wrap: wrap;
   justify-items: center;
   margin-top: 50px;
