@@ -6,9 +6,8 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, auto));
   margin-bottom: 50px;
-  text-align: center;
 `;
 
 const Card = styled.div`
