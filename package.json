@@ -5,8 +5,8 @@
   "dependencies": {
     "ajv": "^6.10.0",
     "apollo-boost": "^0.1.28",
-    "apollo-cache-inmemory": "^1.5.1",
-    "apollo-client": "^2.5.1",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.2",
     "apollo-link": "^1.2.11",
     "apollo-link-error": "^1.1.10",
     "apollo-link-http": "^1.5.14",
@@ -14,14 +14,13 @@
     "graphql-tag": "^2.10.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-apollo": "^2.5.5",
+    "react-apollo": "^2.5.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^3.0.1",
     "styled-components": "^3.4.10",
     "styled-reset": "^1.7.1",
-    "webkit": "0.0.0",
-    "webpack-dev-server": "^3.3.1"
+    "webkit": "0.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,10 +28,22 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "yarn run build"
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
   },
-  "homepage": "https://dokinqs.github.io/movie-app/"
+  "homepage": "https://dokinqs.github.io/movie-app/",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
