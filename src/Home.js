@@ -14,8 +14,8 @@ const Home = () => (
     <Container>
         <Query query={HOME_PAGE}>
             { ({ loading, data, error }) => {
-                if (loading) return "Loading...";
-                if (error) return "ERRORRR";
+                if (loading) return <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>;
+                if (error) return "ERROR - movies";
                 return data.movies.map(movie => (
                     <Movie
                         id={movie.id}

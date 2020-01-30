@@ -50,8 +50,8 @@ const Detail = ({
     }
     }) => <Query query={MOVIE_DETAILS} variables={{ movieId }}>
             { ({loading, error, data}) => {
-                if (loading) return "Loading...";
-                if (error) return "ERRORRR";
+                if (loading) return <div class="loader"></div>;
+                if (error) return "ERROR - detail";
                 return (
                     <React.Fragment>
                         <Container>
