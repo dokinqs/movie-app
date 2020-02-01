@@ -1,13 +1,13 @@
 # Movie App with React, GraphQL, Apollo Client
 
-(nomadcoders)
-
 [App Demo](https://dokinqs.github.io/movie-app/)
 
-<img width="400" alt="responsive" src="https://user-images.githubusercontent.com/22225317/44823178-ecd72180-abcc-11e8-92bd-072f60c36a3b.png">
+<img width="400" alt="desktop" src="https://user-images.githubusercontent.com/22225317/73583950-f704eb80-4462-11ea-8a3f-c67cfea402f9.jpg">
 
-<img width="300" alt="ipad mini" src="https://user-images.githubusercontent.com/22225317/44823179-ee084e80-abcc-11e8-9194-64a3c4c0373c.png">
+<img height="300" alt="phone" src="https://user-images.githubusercontent.com/22225317/73583951-f704eb80-4462-11ea-81a6-d0de16615626.jpg">
+
+<img width="250" alt="desktop" src="https://user-images.githubusercontent.com/22225317/73583952-f704eb80-4462-11ea-83f9-aabb12effba6.jpg">
 
 [Back-end](https://github.com/dokinqs/movie-app-backend)
 
-[Graphql API](https://movie-app-backend-dasacvbblg.now.sh/)
+[Graphql](https://movie-app-backend-dasacvbblg.now.sh/) (nomadcoders)
