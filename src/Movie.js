@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
  
 const Card = styled.div`
-  border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   background-image: ${props => `url(${props.background})`};
   background-size: cover;
@@ -12,7 +11,11 @@ const Card = styled.div`
   height: 300px;
   width: 200px;
   position: relative;
-  margin: 0 auto 40px;
+  margin: 20px auto;
+  @media screen and (max-width: 506px) {
+    max-height: 240px;
+    max-width: 140px;
+  }
 `;
 
 const Title = styled.span`

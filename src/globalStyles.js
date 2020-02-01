@@ -2,27 +2,37 @@ import { injectGlobal } from "styled-components";
 import reset from "styled-reset";
 
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+  @import url('https://fonts.googleapis.com/css?family=Dosis:400,500');
   ${reset};
   body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #e1e3ef;
+    font-family: 'Dosis', sans-serif;
+  }
+  h1 {
+    text-align: center;
+    margin: 26px auto;
+    font-size: 40px;
+    font-weight: 500;
   }
   a {
     color: inherit;
   }
+  a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.23), 0 6px 6px rgba(0, 0, 0, 0.29);
+    color: #777;
+  }
   main {
     width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 5px auto;
+    padding: 40px 20px;
   }
+
   .lds-grid {
     display: inline-block;
     position: absolute;    
     left: 0;
     top: 0;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     margin: auto;
     width: 80px;
     height: 80px;
@@ -32,7 +42,7 @@ injectGlobal`
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #fff;
+    background: #c5cae5;
     animation: lds-grid 1.2s linear infinite;
   }
   .lds-grid div:nth-child(1) {
@@ -88,6 +98,7 @@ injectGlobal`
       opacity: 0.5;
     }
   }  
+
   .loader {
     border: 5px solid #fff;
     border-radius: 50%;
@@ -100,8 +111,8 @@ injectGlobal`
     position: absolute;
     left: 0;
     top: 0;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     margin: auto;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
