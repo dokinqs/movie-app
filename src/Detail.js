@@ -62,7 +62,7 @@ const Detail = ({
                 if (loading) return <div className="loader"></div>;
                 if (error) return "ERROR - detail";
                 return (
-                    <React.Fragment>
+                    <>
                         <Link to="/">
                             <h3>Home</h3>
                         </Link>
@@ -87,7 +87,7 @@ const Detail = ({
                                 />
                             ))}
                         </MovieContainer>
-                    </React.Fragment>
+                    </>
                 );
             }}
     </Query>;
